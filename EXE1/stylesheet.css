@@ -1,0 +1,40 @@
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.dilma, .aecio, .marina, .eduardo, .bolsonaro {
+    float: left;
+}
+
+.dilma {
+    background-image: url(dilma.jpg);
+}
+
+.aecio {
+    background-image: url(aecio.jpg);
+}
+
+.marina {
+    background-image: url(marina.jpg);
+}
+
+.eduardo {
+    background-image: url(eduardo.jpg);
+}
+
+.bolsonaro {
+    background-image: url(bolsonaro.jpg);
+}
+
+.alinha_div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
