@@ -1,0 +1,33 @@
+.container{
+    width: 96%;
+    margin: auto;
+
+}
+
+.col_1, .col_2, .col_3, .col_4, .col_5{
+    float:left;
+
+}
+
+.col_1{
+
+    width: 100%;
+}
+
+.col_2{
+
+    width: 100%;
+}
+
+.col_3{
+
+    width: 100%;
+}
+
+.col_4{
+    width: 100%;
+}
+
+.col_5{
+    width: 100%;
+}

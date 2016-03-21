@@ -1,0 +1,19 @@
+.container{
+
+    width: 70%;
+    margin: auto;
+}
+
+.col_1, .col_2{
+    float:left;
+}
+
+.col_1{
+
+    width: 70%;
+}
+
+.col_2{
+
+    width: 30%;
+}
