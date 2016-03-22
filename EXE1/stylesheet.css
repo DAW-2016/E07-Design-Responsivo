@@ -4,19 +4,25 @@
     /*display: flex;*/
 }
 
+.alinha_div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 1029px) {
     .col_0 {
         float: left;
         width: 100%;
         /*clear: both;*/
-
     }
 
     .col_1 {
         float: left;
         width: 100%;
         /*clear: both;*/
-
     }
 
     .col_2 {
@@ -92,16 +98,16 @@
     }
 }
 
-#dilma, #aecio, #marina, #eduardo, #bolsonaro {
+/*#dilma, #aecio, #marina, #eduardo, #bolsonaro {
     width: 300px;
     height: 300px;
     margin: auto;
-    /*margin-bottom: 100px;*/
+    margin-bottom: 100px;
     margin-top: 50px;
-}
+}*/
 
 #dilma {
-    background-image: url(dilma.jpg);
+    background-image: url(lula.jpg);
 }
 
 #aecio {
@@ -120,13 +126,9 @@
     background-image: url(bolsonaro.jpg);
 }
 
-.alinha_div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
+/*#pt {
+    background-color: lightred;
+}*/
 
 h1, h2 {
     text-align: center;
