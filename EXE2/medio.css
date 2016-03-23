@@ -1,0 +1,22 @@
+.container {
+    width: 99%;
+    margin: auto;
+}
+
+.col_1, .col_2, .col_3 {
+    float: left;
+    /*padding: 1%;*/
+    padding-bottom: 5%;
+}
+
+.col_1 {
+    width: 50%;
+}
+
+.col_2 {
+    width: 50%;
+}
+
+.col_3 {
+    width: 100%;
+}

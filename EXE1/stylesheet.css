@@ -1,0 +1,141 @@
+.container {
+    width: 100%;
+    margin: auto;
+    /*display: flex;*/
+}
+
+.alinha_div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1029px) {
+    .col_0 {
+        float: left;
+        width: 100%;
+        /*clear: both;*/
+    }
+
+    .col_1 {
+        float: left;
+        width: 100%;
+        /*clear: both;*/
+    }
+
+    .col_2 {
+        float: left;
+        width: 100%;
+        /*clear: both;*/
+    }
+
+    #mobile {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto {
+        /*height: 300px;*/
+        margin-bottom: 100px;
+    }
+
+    #dilma, #aecio, #marina, #eduardo, #bolsonaro {
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        /*margin-bottom: 100px;*/
+        margin-top: 50px;
+    }
+
+    .nomes {
+        text-align: center;
+        margin-bottom: 100px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 1030px) {
+    .col_0 {
+        float: left;
+        width: 100%;
+        /*clear: both;*/
+
+    }
+
+    .col_1 {
+        float: left;
+        width: 35%;
+    }
+
+    .col_2 {
+        float: left;
+        width: 50%;
+        margin-right: 15%;
+    }
+
+    .texto {
+        /*height: 300px;*/
+        margin-top: 50px;
+    }
+
+    #dilma, #aecio, #marina, #eduardo, #bolsonaro {
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        /*margin-bottom: 100px;*/
+        margin-top: 50px;
+    }
+
+    .nomes {
+        text-align: center;
+        /*margin-bottom: 100px;*/
+        /*margin-top: 10px;*/
+    }
+}
+
+/*#dilma, #aecio, #marina, #eduardo, #bolsonaro {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}*/
+
+#dilma {
+    background-image: url(lula.jpg);
+}
+
+#aecio {
+    background-image: url(aecio.jpg);
+}
+
+#marina {
+    background-image: url(marina.jpg);
+}
+
+#eduardo {
+    background-image: url(eduardo.jpg);
+}
+
+#bolsonaro {
+    background-image: url(bolsonaro.jpg);
+}
+
+/*#pt {
+    background-color: lightred;
+}*/
+
+h1, h2 {
+    text-align: center;
+}
+
+/** {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}*/

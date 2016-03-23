@@ -1,0 +1,53 @@
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+@media screen and (min-width: 1200px) {
+    .col_1 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .col_1 {
+        width: 33.3333333333333333%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col_1 {
+        width: 100%;
+        float: left;
+    }
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: red;
+}
+
+#foto_1 {
+    background-image: url(foto1.jpeg);
+}
+
+#foto_2 {
+    background-image: url(foto2.jpeg);
+}
+
+#foto_3 {
+    background-image: url(foto3.jpg);
+}
+
+#foto_4 {
+    background-image: url(foto4.jpg);
+}
+
+#foto_5 {
+    background-image: url(foto5.jpeg);
+}
