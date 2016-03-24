@@ -1,3 +1,7 @@
+body{
+    background-color: #e3e5e7;
+}
+
 .container{
 
     width: 98%;
@@ -5,15 +9,29 @@
 }
 
 .col_1, .col_2{
+
+    border: 2px solid #dd000e;
     float:left;
 }
 
 .col_1{
 
     width: 100%;
+
 }
 
 .col_2{
 
     width: 100%;
+    text-align: justify;
+
+}
+
+
+.candidatos{
+
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: darkgreen;
 }
