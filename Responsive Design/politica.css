@@ -1,0 +1,119 @@
+/* Gerais */
+body{
+  background-image: url('background.jpeg');
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+img{
+  border-radius: 5%;
+}
+p, h3, h2, h1{
+  font-family: Arial;
+  font-size: 18px;
+  width: 100%;
+  color: white;
+}
+header{
+  width: 100%;
+}
+/* Classe */
+.image{
+  border-radius: 5%;
+}
+.legenda{
+  font-size: 14px;
+}
+.title{
+  font-family: Impact, Charcoal, sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 0 1px black, 0 -1px black;
+  color: white;
+  font-size: 30px;
+}
+.subtitle{
+  font-family: Impact, Charcoal, sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 0 1px black, 0 -1px black;
+  color:white;
+  font-size: 18px;
+}
+.col1, .col2, .col3, .col4, .col5, .col6{
+  float: left;
+  padding: 0.5%;
+  margin: 0.5%;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: justify;
+
+}
+.col1:hover, .col2:hover, .col3:hover, .col4:hover, .col5:hover, .col6:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.col1{
+  width:14.6666666667%;
+}
+.col2{
+  width:31.3333333333%;
+}
+.col3{
+  width:48%;
+}
+.col4{
+  width:64.6666666666%;
+}
+.col5{
+  width:81.3333333333%;
+}
+.col6{
+  width:98%;
+}
+.link{
+  color: black;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 18px;
+}
+
+.link:hover{
+  color: #009900;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 18px;
+  background-color: rgba(160, 160, 160, 0.5);
+}
+/* ID */
+
+
+/* Animações */
+
+@-webkit-keyframes tamc{
+    from {width: 48%;}
+    to {width: 98%;}
+}
+@keyframes tamc{
+  from {width: 48%;}
+  to {width: 98%;}
+}
+
+/* Media Query */
+
+@media screen and (max-width: 1000px){
+  .col1, .col2, .col3, .col4, .col5, .col6{
+    width: 100%;
+  }
+}
+
+/*.experiencia:hover{
+
+  -webkit-animation-name: colorc;
+  -webkit-animation-duration: 4s;
+  animation-name: colorc;
+  animation-duration: 4s;
+
+}
+@-webkit-keyframes colorc{
+    from {background-color: rgba(0, 0, 0, 0);}
+    to {background-color: rgba(0, 0, 0, 0.5);}
+}
+@keyframes colorc{
+    from {background-color: rgba(0, 0, 0, 0);}
+    to {background-color: rgba(0, 0, 0, 0.5);}
+}*/
